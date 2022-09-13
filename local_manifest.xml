@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <remote name="Dinesh" 
+          fetch="https://github.com/DineshMSDian" />
+
+  <!-- Trees -->
+        <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="Dinesh" revision="Spark" />
+        <project path="vendor/xiaomi/santoni" name="vendor-santoni" remote="Dinesh" revision="12.0" />
+        <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_santoni" remote="Dinesh" revision="12.1-CAF" /> 
+
+</manifest>
