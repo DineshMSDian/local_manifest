@@ -4,9 +4,15 @@
   <remote name="Dinesh" 
           fetch="https://github.com/DineshMSDian" />
 
+  <remote name="Clang"
+          fetch="https://github.com/kdrag0n" />
+
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="Dinesh" revision="rice" />
         <project path="vendor/xiaomi/santoni" name="vendor-santoni" remote="Dinesh" revision="12.0" />
         <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_santoni" remote="Dinesh" revision="12.1-CAF" /> 
+
+ <!-- Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Clang" revision="master" />
 
 </manifest>
