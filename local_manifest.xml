@@ -16,6 +16,6 @@
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Clang" revision="master" />
 
 <!-- Extra -->
-        <remove-project name="hardware/lineage/compat" />
+        <remove-project name="LineageOS/android_hardware_lineage_compat" />
 
 </manifest>
