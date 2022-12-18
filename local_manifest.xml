@@ -15,4 +15,7 @@
  <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Clang" revision="master" />
 
+<!-- Extra -->
+        <remove-project name="hardware_custom_compat" />
+
 </manifest>
