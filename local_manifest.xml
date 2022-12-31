@@ -4,13 +4,16 @@
   <remote name="Dinesh" 
           fetch="https://github.com/DineshMSDian" />
 
+  <remote name="kernel"
+          fetch="https://github.com/VoltageOS-Devices" />
+
   <remote name="Clang"
           fetch="https://github.com/kdrag0n" />
 
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="Dinesh" revision="Spark" />
         <project path="vendor/xiaomi/santoni" name="vendor-santoni" remote="Dinesh" revision="12.0" />
-        <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_santoni" remote="Dinesh" revision="12.1-CAF" /> 
+        <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_msm8937" remote="kernel" revision="13" /> 
 
  <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Clang" revision="master" />
