@@ -8,7 +8,8 @@
           fetch="https://github.com/VoltageOS-Devices" />
 
   <remote name="Clang"
-          fetch="https://github.com/kdrag0n" />
+            fetch="https://gitlab.com/anandhan07/"
+            clone-depth="1" />
 
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="Dinesh" revision="Spark" />
@@ -16,6 +17,7 @@
         <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_msm8937" remote="kernel" revision="13" /> 
 
  <!-- Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Clang" revision="master" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r468909b" name="aosp-clang" remote="Clang" revision="clang-15.0.3" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="Clang" revision="clang-14.0.6" />
 
 </manifest>
