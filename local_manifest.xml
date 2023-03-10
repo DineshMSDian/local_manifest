@@ -5,8 +5,8 @@
           fetch="https://github.com/DineshMSDian" />
 
   <remote name="Clang"
-          fetch="https://github.com/kdrag0n" 
-          clone-depth="1" />
+            fetch="https://gitlab.com/anandhan07/"
+            clone-depth="1" />
 
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="Dinesh" revision="Rice" />
