@@ -13,7 +13,13 @@
         <project path="vendor/xiaomi/santoni" name="vendor-santoni" remote="Dinesh" revision="12.0" />
         <project path="kernel/xiaomi/santoni" name="android_kernel_xiaomi_msm8937" remote="kernel" revision="12.1-CAF" /> 
 
- <!-- Clang -->
+ <!-- Extra -->
+        <remove-project path="hardware/lineage/compat" name="hardware_lineage_compat" />
+
+ <!-- Extra -->
+        <remove-project name="LineageOS/android_hardware_lineage_compat" />
+ 
+  <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Clang" revision="master" />
 
 </manifest>
