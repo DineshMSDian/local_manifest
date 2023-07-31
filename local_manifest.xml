@@ -3,6 +3,9 @@
   
   <remote name="Dinesh" 
           fetch="https://github.com/DineshMSDian" />
+  
+  <remote name="om" 
+          fetch="https://github.com/omansh-krishn" />
 
   <remote name="Clang"
           fetch="https://github.com/kdrag0n" 
@@ -13,12 +16,10 @@
         <project path="vendor/xiaomi/santoni" name="vendor-santoni" remote="Dinesh" revision="12.0" />
         <project path="kernel/xiaomi/santoni" name="android_kernel_xiaomi_msm8937" remote="kernel" revision="12.1-CAF" /> 
 
- <!-- Extra -->
-        <remove-project path="hardware/lineage/compat" name="hardware_lineage_compat" />
+  <!-- hardware_custom_compat /-->
+        <remove-project name="android_hardware_lineage_compat" />
+        <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="om" revision="thirteen" />
 
- <!-- Extra -->
-        <remove-project name="LineageOS/android_hardware_lineage_compat" />
- 
   <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Clang" revision="master" />
 
