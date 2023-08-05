@@ -21,7 +21,7 @@
 
   <!-- Remove projects -->
         <remove-project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" />
-        <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="om" revision="lineage-20.0" />
+        <!-- project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="om" revision="lineage-20.0" -->
 
   <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Clang" revision="master" />
