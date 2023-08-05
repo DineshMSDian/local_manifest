@@ -13,15 +13,15 @@
   <remote name="Clang"
           fetch="https://github.com/kdrag0n" 
           clone-depth="1" />
- 
+
+  <!-- Extras -->
+        <remove-project name="LineageOS/android_hardware_lineage_compat" />
+        <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="om" revision="lineage-20.0" />
+
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="Dinesh" revision="AlphaDroid" />
         <project path="vendor/xiaomi/santoni" name="vendor-santoni" remote="Dinesh" revision="12.0" />
         <project path="kernel/xiaomi/santoni" name="kernel_xiaomi_msm8937" remote="kernel" revision="13" /> 
-
-  <!-- Remove projects -->
-        <remove-project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" />
-        <!-- project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="om" revision="lineage-20.0" -->
 
   <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Clang" revision="master" />
