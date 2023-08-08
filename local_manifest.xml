@@ -20,7 +20,7 @@
   <!-- Trees -->
         <project path="device/xiaomi/santoni" name="device_xiaomi_santoni" remote="Dinesh" revision="Rising" />
         <project path="vendor/xiaomi/santoni" name="vendor-santoni" remote="Dinesh" revision="12.0" />
-        <project path="kernel/xiaomi/santoni" name="kernel_xiaomi_msm8937" remote="kernel" revision="13" /> 
+        <project path="kernel/xiaomi/msm8937" name="kernel_xiaomi_msm8937" remote="kernel" revision="13" /> 
  
   <!-- Extras -->
         <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="om" revision="lineage-20.0" />
